@@ -3,24 +3,8 @@
 @section('title', 'Виды натяжных потолков')
 
 @section('content')  
-<div class = "container">
-    <div class = "container__inner">        
-        <div class = "container__logo">ALSO</div>
-        <nav class = "nav">
-            <a class="nav__link" href="{{ route('index') }}">Главная</a>
-            <a class="nav__link" href="{{ route('company') }}">О компании</a>
-            <a class="nav__link" href="{{ route('type') }}">Виды натяжных потолков</a>
-            <a class="nav__link" href="{{ route('gallary') }}">Галерея</a>
-            <a class="nav__link" href="#content3">Контакты</a>
-        </nav>
-    </div>        
-  </div> 
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+  
+  <br>  
   <div class = "heading">
         <h1 class = "heading__title">Виды натяжных потолков</h1> 
         <div class = "heading__style"> 
@@ -40,6 +24,12 @@
             - зеркальное отражение. Эти свойства глянцевых полотнищ придают помещению повышенную освещенность,
             из –за чего пространство визуально расширяется, становится объемнее и больше.
           </p>
+          <br>         
+          <div class = "photo">            
+            <img class = "photo__img" src="/images/shop13.webp" alt="alt">
+            <img class = "photo__img" src="/images/shop14.jpeg" alt="alt">
+            <img class = "photo__img" src="/images/shop15.jpg" alt="alt">          
+          </div>          
           <br>
           <h2 class = "heading__title__h2">Матовые натяжные потолки </h2>
           <br>
@@ -56,5 +46,13 @@
             Однако опять же – такие полотна выглядят гармонично и хорошо вписываются в любые интерьерные решения.
           </p>
           <br>
+          <div class = "photo">            
+            <img class = "photo__img" src="/images/shop16.jpeg" alt="alt">
+            <img class = "photo__img" src="/images/shop17.webp" alt="alt">
+            <img class = "photo__img" src="/images/shop18.webp" alt="alt">          
+          </div>
+          <br>  
         </div>  
-    </div>    
+  </div>  
+    
+@endsection

@@ -3,21 +3,7 @@
 @section('title', 'Галерея')
 
 @section('content')
-<div class = "container__gallary">
-    <div class = "container__inner">        
-        <div class = "container__logo">ALSO</div>
-        <nav class = "nav">
-            <a class="nav__link" href="{{ route('index') }}">Главная</a>
-            <a class="nav__link" href="{{ route('company') }}">О компании</a>
-            <a class="nav__link" href="{{ route('type') }}">Виды натяжных потолков</a>
-            <a class="nav__link" href="{{ route('gallary') }}">Галерея</a>
-            <a class="nav__link" href="#content3">Контакты</a>
-        </nav>
-    </div>        
-</div> 
-<br>
-<br>
-<br>
+
 <section class="gallery">
     <h2 class="title">Галерея</h2>
     <div class="gallery-list">
