@@ -1,7 +1,7 @@
 body {
     font-size: 14px;    
-    margin: 0;  
-             
+    margin: 0 auto;  
+           
 }
 
 *,
@@ -32,6 +32,7 @@ html {
 }
 
 .container__inner {
+    flex-wrap:wrap;
     display: flex;
     justify-content: center;      
 }
@@ -43,7 +44,7 @@ html {
 
 .nav__link {
     font-family: 'Arian AMU';
-    display: inline-block;
+    display: inline-block;    
     vertical-align: top;
     margin: 0 20px;
     color: #fff;
@@ -64,29 +65,33 @@ html {
     background-size: color;    
 }
 
-.intro_inner {
+.intro__block {
+    flex-wrap:wrap;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
-     
+}
+
+.intro_inner {
+    text-align: center;     
 }
 
 .intro__title {
-    font-family: 'FoglihtenNo06';
+    font-family: 'Arian AMU';
     font-size: 70px;
     font-weight: 800; 
-    color:rgb(8, 8, 8);
+    color:#fff;
     text-align: center;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 .intro__inner__block { 
-    margin-top: 200px;      
-    
-    width:100%;
+    margin-top: 3%;           
     max-height: 350px;
-    max-width: 900px;
+    max-width: 900px;      
+    background: rgba(8, 8, 8, 0.8);                     
+    text-align: center; 
     border-radius: 40px;
 }
 
@@ -100,66 +105,21 @@ html {
 
 .intro__info {    
     display: flex;
-    flex-direction: row;
-    justify-content: center;    
+    flex-wrap:wrap;
+    flex-direction: row; 
+          
 }
 
-.intro__info__block {  
-    margin-top: 600px;
-    margin-right: 900px;
-    position: absolute; 
+.intro__info__block { 
+    margin: 30px;      
     display: flex;
+    flex-wrap:wrap;
     flex-direction: column;    
     justify-content: center; 
     height: 200px;
     width: 200px;
     border-radius: 100px;
-    background: rgba(8, 8, 8, 0.6);                     
-    text-align: center; 
-    color:#fff; 
-}
-
-.intro__info__block1 {  
-    margin-top: 600px;
-    margin-right: 300px;
-    position: absolute; 
-    display: flex;
-    flex-direction: column;    
-    justify-content: center; 
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    background: rgba(8, 8, 8, 0.6);                     
-    text-align: center; 
-    color:#fff; 
-}
-
-.intro__info__block2 {  
-    margin-top: 600px;
-    margin-left: 300px;
-    position: absolute; 
-    display: flex;
-    flex-direction: column;    
-    justify-content: center; 
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    background: rgba(8, 8, 8, 0.6);                     
-    text-align: center; 
-    color:#fff; 
-}
-
-.intro__info__block3 {  
-    margin-top: 600px;
-    margin-left: 900px;
-    position: absolute; 
-    display: flex;
-    flex-direction: column;    
-    justify-content: center; 
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    background: rgba(8, 8, 8, 0.6);                     
+    background: rgba(8, 8, 8, 0.8);                     
     text-align: center; 
     color:#fff; 
 }
@@ -173,18 +133,15 @@ html {
     line-height: 1.2;
 }
 
-.contacts {
-    position: absolute;        
+.contacts {          
     text-align: center; 
-    margin-top: 25px;  
-	margin-left:700px;
+    margin-top: 25px; 	
     color:#fff;     
 }
 
-.contacts__block {
-    display: flex;
-    flex-direction: column;
+.contacts__block {    
     align-items: center;
+    margin-left:40%;
 }
 
 .phone {        
@@ -203,7 +160,8 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    margin: 0 auto;    
+    margin: 0 auto;   
+    flex-wrap:wrap; 
 }
 
 .heading__title {
@@ -246,12 +204,14 @@ li span {
     width: 100%;
     height: 150px;
     background-color: #303030;
+    flex-wrap:wrap;
     
 }
 
 .epilogue__inner {
     display: flex;    
-    justify-content: center;        
+    justify-content: center;  
+    flex-wrap:wrap;      
 }
 
 .epilogue__contacts {
@@ -356,7 +316,7 @@ section.gallery{
     .gallery-item{
       flex: 100%;
     }
-  }
+  } 
 
   .photo {
     display: flex;

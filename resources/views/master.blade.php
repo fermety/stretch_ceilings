@@ -21,7 +21,7 @@
               <a class="nav__link" href="#content3">Контакты</a>
           </nav>
       </div>        
-  </div>  
+    </div>  
     @yield('content')
     <div id = "content3" class = "epilogue">
         <div class = "epilogue__inner">
