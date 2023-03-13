@@ -9,7 +9,7 @@
       <div class = "contacts">
         <p class = "phone">8 (906) 426 56 49</p>
         <p class = "adress">Пн.-Вс. с 8.00 до 20.00</p>
-        <p class = "adress">sergant5@mail.ru</p>
+        <p class = "adress">sergeant5@mail.ru</p>
       </div>
     </div> 
     <div class = "intro_inner">      

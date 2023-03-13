@@ -11,49 +11,49 @@
         <div class="gallery-item-hover">Посмотреть</div>
         <img src="/images/shop1.jpg" alt="alt">
       </a>
-      <a href="images/shop2.webp" class="gallery-item">
+      <a href="images/shop2.jpg" class="gallery-item">
         <div class="gallery-item-hover">Посмотреть</div>
-        <img src="images/shop2.webp" alt="alt">
+        <img src="images/shop2.jpg" alt="alt">
       </a>
-      <a href="/images/shop3.webp" class="gallery-item">
+      <a href="/images/shop3.jpg" class="gallery-item">
         <div class="gallery-item-hover">Посмотреть</div>
-        <img src="/images/shop3.webp" alt="alt">
+        <img src="/images/shop3.jpg" alt="alt">
       </a>
-      <a href="/images/shop4.webp" class="gallery-item">
+      <a href="/images/shop4.jpg" class="gallery-item">
         <div class="gallery-item-hover">Посмотреть</div>
-        <img src="/images/shop4.webp" alt="alt">
+        <img src="/images/shop4.jpg" alt="alt">
       </a>
-      <a href="/images/shop5.webp" class="gallery-item">
+      <a href="/images/shop5.jpg" class="gallery-item">
         <div class="gallery-item-hover">Посмотреть</div>
-        <img src="/images/shop5.webp" alt="alt">
+        <img src="/images/shop5.jpg" alt="alt">
       </a>
-      <a href="/images/shop6.webp" class="gallery-item">
+      <a href="/images/shop6.jpg" class="gallery-item">
         <div class="gallery-item-hover">Посмотреть</div>
-        <img src="/images/shop6.webp" alt="alt">
+        <img src="/images/shop6.jpg" alt="alt">
       </a>
-      <a href="/images/shop7.webp" class="gallery-item">
+      <a href="/images/shop7.jpg" class="gallery-item">
         <div class="gallery-item-hover">Посмотреть</div>
-        <img src="/images/shop7.webp" alt="alt">
+        <img src="/images/shop7.jpg" alt="alt">
       </a>
-      <a href="/images/shop8.webp" class="gallery-item">
+      <a href="/images/shop8.jpg" class="gallery-item">
         <div class="gallery-item-hover">Посмотреть</div>
-        <img src="/images/shop8.webp" alt="alt">
+        <img src="/images/shop8.jpg" alt="alt">
       </a>
-      <a href="/images/shop9.webp" class="gallery-item">
+      <a href="/images/shop9.jpg" class="gallery-item">
         <div class="gallery-item-hover">Посмотреть</div>
-        <img src="/images/shop9.webp" alt="alt">
+        <img src="/images/shop9.jpg" alt="alt">
       </a>
-      <a href="/images/shop10.webp" class="gallery-item">
+      <a href="/images/shop10.jpg" class="gallery-item">
         <div class="gallery-item-hover">Посмотреть</div>
-        <img src="/images/shop10.webp" alt="alt">
+        <img src="/images/shop10.jpg" alt="alt">
       </a>
-      <a href="/images/shop11.webp" class="gallery-item">
+      <a href="/images/shop11.jpg" class="gallery-item">
         <div class="gallery-item-hover">Посмотреть</div>
-        <img src="/images/shop11.webp" alt="alt">
+        <img src="/images/shop11.jpg" alt="alt">
       </a>
-      <a href="/images/shop12.webp" class="gallery-item">
+      <a href="/images/shop12.jpg" class="gallery-item">
         <div class="gallery-item-hover">Посмотреть</div>
-        <img src="/images/shop12.webp" alt="alt">
+        <img src="/images/shop12.jpg" alt="alt">
       </a>
     </div>
   </section>

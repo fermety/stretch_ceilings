@@ -2,7 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Натяжные потолки: @yield('title')</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="image">
+    <meta name="discription" content="+7 (906) 426-56-49 Время работы: Пн.-Вс. с 8.00 до 20.00. Натяжные потолки в Батайске, Ростове-на-Дону, Азове. Установка потолка за один день!
+    Опыт работы больше 10 лет. Замер 0Р. Безопасный монтаж">
+    <meta name="keywords" content="Натяжные потолки в Батайске, Натяжные потолки в Ростове-на-Дону, Натяжные потолки в Азове,
+    недорого, быстро, Натяжные потолки, also, +7 (906) 426-56-49">
+    <title>Натяжные потолки в Батайске, Ростове-на-Дону, Азове</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link href="/css/style.css" rel="stylesheet"> 
     <link href="https://fonts.fontstorage.com/import/baronneue.css" rel = "stylesheet">      
     <link href="https://fonts.fontstorage.com/import/fog6.css" rel = "stylesheet">      
@@ -29,9 +36,9 @@
           <div class = "epilogue__contacts">
             <p class = "epilogue__phone">8 (906) 426 56 49</p>
             <p class = "epilogue__adress">Пн.-Вс. с 8.00 до 20.00</p>
-            <p class = "epilogue__adress">sergant5@mail.ru</p>
+            <p class = "epilogue__adress">sergeant5@mail.ru</p>
           </div>                  
         </div>
-      </div>     
+    </div>     
   </body>
 </html>
